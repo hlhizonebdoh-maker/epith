@@ -1,0 +1,25 @@
+Package: epith
+Type: Package
+Title: Epidemic Threshold Plots
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Herdie", "Hizon",
+      email = "hlhizon.eb.doh@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Tools to generate epidemic threshold plots for notifiable diseases.
+Imports:
+    tidyr,
+    ggplot2,
+    dplyr,
+    MMWRweek,
+    stringr,
+    tidyverse,
+    RColorBrewer
+Encoding: UTF-8
+License: MIT
+LazyData: true
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)
